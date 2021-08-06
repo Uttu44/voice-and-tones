@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.main_box{
+           position: relative;
+           height: 100vh;
+           width: 100%;
+           background-color:blueviolet;
+}
+.main_box .sidebar{
+ position: fixed;
+ height: 100vh;
+ width: 220px;
+ box-shadow: 20px  20px 50px rgba(0, 0, 0, 0.5);
+ border-radius: 15px;
+ background: rgba(255, 255,255, 0.1);
+ overflow: hidden;
+ background-color: black;
+}
+.sidebar .heading{
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    left: 25px;
+}
+.sidebar .content{
+    position: absolute;
+    top: 118px;
+    width: 100%;
+    left: 15px;
+    color: green;
+}
+.hr{
+    position: absolute;
+    top: 150px;
+    width: 100%;
+
+}
+.sidebar .menu{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    left: 15px;
+    
+}
+.sidebar .menu li{
+    margin-top: 3px;
+    padding: 5px ;
+    transition: all 0.2s linear;
+}
+.sidebar .menu a{
+    color: white;
+    text-decoration: none;
+    width: 5px;
+}
+.sidebar .menu li :hover{
+    letter-spacing: 0.2px;
+    transition: 0.4;
+    box-shadow: 20px 20px 50px rgba(160, 142, 142, 0.856);
+}
+.sidebar .menu ul li a:hover{
+    border-right: 5px;
+    border-left: 5px solid #dee0e9;
+    
+}
+.success{
+    height: 20px;
+    width: 20px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.lorem{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    left: 20vw;
+    columns: red;
+}
+.container{
+    position:absolute;
+}
+.head{
+    left:20vw;
+    position: absolute;
+    width: 100vw;
+    top: 16vh;
+    background: black;
+    color: white;
+    padding: 1vw;
+}
+.bt{
+    position: absolute;
+    left:19.5vw ;
+    top: 25vh;
+    padding: 8px
+}
+.bt #bt2{
+    color: white;
+    background: black;
+    width: 9vw;
+    height: 5vh;
+}
+.comment{
+    position: absolute;
+    width: 50vw;
+    height: 18vh;
+    left: 20vw;
+    top: 35vh;
+    background: white;
+    padding: 16px;
+    border-radius: 25px;
+}
+.com{
+    width: 51vw;
+    height: 25vh;
+}
+.feeling{
+    position: absolute;
+    left: 73vw;
+    top: 35vh;
+    width: 20vw;
+    margin-bottom: 4px;
+}
+.h3{
+    padding-bottom: 8px; 
+}
+.h4{
+    color: white;
+    padding-bottom: 2px;
+}
+.tip{
+    position: absolute;
+    width: 54vw;
+    left: 21vw;
+    top: 60vh;
+}
+.tips{
+    padding-bottom: 9px;
+    font-size: xx-large;
+}
+.para{
+    font-size: x-large;
+    width: 49vw;
+    color: white;
+}
+.mail{
+    left: 81vw;
+    position: absolute;
+    top: 60vh;
+    width: 12vw;
+    background-color: white;
+}
+.chimp{
+    font-size: x-large;
+    font-weight: 700;
+    padding: 27px 8px 25px 10px;
+}
+.comment2{
+    position: absolute;
+    left: 73vw;
+    top: 72vh;
+    width: 22vw;
+ 
+}
+.p2{
+    background: black;
+    color: white;
+    padding: 10px 10px 30px 10px;
+    font-size: x-large;
+    border-radius: 26px;
+}
+.footer{
+    position: absolute;
+    left: 21vw;
+    top: 91vh;
+    width: 38vw;
+    font-size: x-large;
+    font-weight: bold;
+}
+.hr2{
+    position: absolute;
+    left: 16vw;
+    top: 90vh;
+    width: 100vw;
+}
